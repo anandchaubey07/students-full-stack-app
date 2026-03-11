@@ -2,7 +2,8 @@
   "name": "students-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "nest start",
+    "start": "node dist/main",
+    "build": "nest build",
     "start:dev": "nest start --watch"
   },
   "dependencies": {
